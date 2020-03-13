@@ -9,8 +9,8 @@ Guided back-prop
 ![alt tag](images/gradcam_results.png)
 
 # Transcript
-00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea
-00:00:15 we want a president we want a president who will change how the government contracts so that it only does business in places that have been left behind economically that is a bipartisan idea instead of ramming down the throat of the American people
+00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea<br />
+00:00:15 we want a president we want a president who will change how the government contracts so that it only does business in places that have been left behind economically that is a bipartisan idea instead of ramming down the throat of the American people<br />
 00:00:30 a tax bill that is based on people lying and selling out we need a president to watch to use the tax code to take care of places that have been left behind cuz that's Our obligation need a president who's going to look into the future
 00:00:45 understand what Thomas Friedman's talking about in his book he understands that the world is changing and we need to do something about it we need to make our country more entrepreneurial cuz that's how you succeed in the future we need to make our country more competitive and import
 00:01:00 we need a new social contract the social contract that I succeeded on needs to change we need to repent preparing our kids for totally new world people going to need to be trained across their lives and one job anymore
