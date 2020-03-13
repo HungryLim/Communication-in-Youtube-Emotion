@@ -16,7 +16,7 @@ Guided back-prop
 00:01:00 we need a new social contract the social contract that I succeeded on needs to change we need to repent preparing our kids for totally new world people going to need to be trained across their lives and one job anymore
 00:01:15 going to have for 5 Healthcare in retirement can no longer be linked to employment cuz as long as it is people won't move their job leave their jobs and pursue opportunities right that's the kind of President and that's the kind of leadership
 00:01:30 we need we need a president who doesn't want to repeal the estate tax but wants to expand the Earned Income Tax Credit a bipartisan idea
-00:01:45 what we really need a president to do is to bring us together to restore civility to politics to restore respect for the profession of Public Service
+00:01:45 what we really need a president to do is to bring us together to restore civility to politics to restore respect for the profession of Public Service <br />
 00:02:00 can actually begin a dialogue about the things we agree on instead of always always talking about the things we don't agree on present
 00:02:15 you said it well in Baltimore Maryland in 1958 he said we shouldn't seek the Democratic answer or the Republican answer we should seek the right answer that's the kind of President we need
 00:02:30 and it is not only as a matter of substance the right answer for this country but it is as a matter of Politics the right position for the Democratic Party
