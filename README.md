@@ -1,3 +1,11 @@
+# Motivation
+People perceive information not only from text but also from audio and image in communication, but despite their importance, existing research leaves this question unanswered: Do non-textual features of speech affect voters via emotional expression?
+\begin{itemize}
+\item Emotions are important media of political message and powerful tools in communication
+\item Texts are not enough to capture the non-textual effect of communication 
+\item Difficulties in systematically measuring speaker's emotion from video data 
+\end{itemize}
+
 # Speech
 ![](demo.gif)
 
