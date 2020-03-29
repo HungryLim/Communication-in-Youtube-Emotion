@@ -1,10 +1,45 @@
 # Motivation
 People perceive information not only from text but also from audio and image in communication, but despite their importance, existing research leaves this question unanswered: Do non-textual features of speech affect voters via emotional expression?
+* Emotions are important media of political message and powerful tools in communication
+* Texts are not enough to capture the non-textual effect of communication 
+* Difficulties in systematically measuring speaker's emotion from video data 
+
+# Introduction
+Consider global warming in speech. The way to convey the exact same word can vary in the context of the speech. However, we are unsure about how various textual and non-textual features of communication affect reception of the information and the perception of speaker. Therefore, I collect 2016 Congressional campaign speech video data from Youtube to use in an experiment in which we can test the effect of emotional expression on those two outcomes. In order to analyze comprehensive aspects of speech in video, we need to analyze text, audio and images from video.
+
+# Overview of literature
+* The role of emotions in human behaviors (especially political behaviors): Valentino et al. 2011, Brader 2005
+* Computer vision (image): Knox, Lucas and de Benedictis-Kessner 2016, Torres 2018
+* Audio: El Ayadi, Kamel and Karray 2011
+* Text: Tumasjan et. al. 2010
+
+# Method: the case study
+* Download videos from Youtube
+  * Crop Youtube videos of 2016 U.S. Congressional elections winners by keywords ("candidate name $+$ campaign speech"). 
+  * Download top 3 results of each winners (Total about 60GB). 
+
+
+\textcolor{ForestGreen!70}{\textbf{Video text}}
 \begin{itemize}
-\item Emotions are important media of political message and powerful tools in communication
-\item Texts are not enough to capture the non-textual effect of communication 
-\item Difficulties in systematically measuring speaker's emotion from video data 
+\item Cut extracted audio into pieces
+\item Run Google Speech API for each audio blocks
+\item Transcribe the audio blocks and merge them
 \end{itemize}
+
+\textcolor{ForestGreen!70}{\textbf{Video audio}}
+\begin{itemize}
+\item Extract audio from video
+\item Analyze the audio: Amplitude, pitch, length etc.
+\end{itemize}
+
+\textcolor{ForestGreen!70}{\textbf{Video images}}
+\begin{itemize}
+\item Recognize the face of a politician from video
+\item Use pre-trained face classifier for detecting emotions (Goodfellow 2013) 
+\item Capture and analyze the facial emotions of the politician for each video frames
+\end{itemize}
+
+
 
 # Speech
 ![](demo.gif)
