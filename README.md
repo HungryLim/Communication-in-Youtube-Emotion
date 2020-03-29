@@ -3,10 +3,10 @@
 
 # Emotion/gender examples:
 
-![alt tag](emos.png)
+![](emos.png)
 
 
-![alt tag](images/gradcam_results.png)
+![](images/gradcam_results.png)
 
 # Transcript
 00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea<br />
