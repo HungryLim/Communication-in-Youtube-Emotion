@@ -82,6 +82,8 @@ Now to quantify and store the emotions of speaker from a video, I stored capture
 
 <p align="center"><img src="emos.png" /></p>
 
+<p align="center"><img src="table.png" /></p>
+
 
 
 # Conclusion
