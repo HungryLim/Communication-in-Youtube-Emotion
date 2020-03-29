@@ -80,10 +80,11 @@ I used \texttt{Emotion} Python package written by Octavio, Valdenegro-Toro, and 
 
 Now to quantify and store the emotions of speaker from a video, I stored captured emotions of each frame of video. The below is the distribution of emotions from the sample video. As it shows there are several points of the speech where the speaker shows strong emotion such as anger. I will discuss and analyze more about these stronger emotions from speech to understand how speaker's emtions can be strategically used for audiences or messages of videos.
 
-<p align="center"><img src="emos.png" /></p>
 
-<p align="center"><img src="table.PNG" /></p>
-
+<p align="center">
+  <img src="emos.png" width="400" />
+  <img src="table.PNG" width="400"  />
+</p>
 
 
 # Conclusion
