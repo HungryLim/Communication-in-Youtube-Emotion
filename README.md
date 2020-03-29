@@ -16,7 +16,7 @@ Consider global warming in speech. The way to convey the exact same word can var
 # Method: the case study
 * Download videos from Youtube
   * Crop Youtube videos of 2016 U.S. Congressional elections winners by keywords ("candidate name $+$ campaign speech"). 
-  * Download top 3 results of each winners (Total about 60GB). 
+  * Download top 3 results of each winners (Total about 60GB as the sample of the project). 
 
 * Video text
   * Cut extracted audio into pieces
@@ -31,6 +31,20 @@ Consider global warming in speech. The way to convey the exact same word can var
   * Recognize the face of a politician from video
   * Use pre-trained face classifier for detecting emotions (Goodfellow 2013) 
   * Capture and analyze the facial emotions of the politician for each video frames
+
+
+# Capturing and quantifying emotions from using deep learning
+To capture and quantify speaker's emotions from video, I used Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras Convolutional Neural Networks (CNN) model and openCV by [Arriaga, Ploger, and Valdenegro (2017)](https://github.com/oarriaga/face_classification/blob/master/report.pdf). I modified some of the code becuase several functions and packages have been changed since 2017. However, the base model and package is from orriaga's repo [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py). 
+
+![Frequent words in the speech](demo.gif)
+
+# Emotion examples:
+
+![](emos.png)
+
+
+![](images/gradcam_results.png)
+
 
 # Text
 The split audio file can be transcribed in Google Speech API. Text sources are useful data and there are various models to analyze text, but without a video and audio component of speech, we can only understand limited information from the communication. For example, the same word can be presented in different ways with different emotions that text data itself cannot capture that difference. In this post, I will use a case of video. The video is from the Youtube channel of Congressman John K. Delaney (https://www.youtube.com/watch?v=z-NvLskoi7I). Below is the word cloud of the sample video's texts.
@@ -53,10 +67,11 @@ I used Google Speech API to transcribe text from the Youtube video. The below is
 
 # Video audio
 Speaker's emotions and non-textual implication of message can vary. These variations in audio can be measured by amplitude, pitch, and speed of speech. Although these two audio files are from the same speaker, the amplitude of speech tone differs by the context and message of the speech. For an experiment, I can manipulate the speed, tone or pitch of speech. Based on literature on emotion and speech, amplitude (the intensity of voice) can be translated as the intensity of emotion in a speech (Anderson et al. 2014;
-Anderson and Klofstad 2012; Dietrich, Hayes, and O'Brian 2019). For instance, criticizing messages in a speech has negative emotion (i.e. anger) shows higher pitch and/or amplitude. The below is the messages from the videos that shows strong emotions.
+Anderson and Klofstad 2012; Dietrich, Hayes, and O'Brian 2019). For instance, criticizing messages in a speech has negative emotion (i.e. anger) shows higher pitch and/or amplitude. The below is the messages from the videos that shows strong emotions. Remember the two plots have different y axis scale! (From -20,000 to 20,000, From -15,000 to 15,000)
 
 Texts: Even some very significant challenges we should have dealt with but we didn't do it why because hyper partisan politics prevents us from getting anything done.
 
+<p align="center"><img title="Title Tag Goes Here" src="Figure_1-1.png" /></p>
 
 
 
@@ -64,15 +79,6 @@ On the other hand, positive message shows relatively less stronger emotions and 
 
 Text: One of the most sacred fundamental ideals of this country the American dream the notion that if you work hard and you play by the rules you and your family can live a better life.
 
+<p align="center"><img title="Title Tag Goes Here" src="Figure_1-2.png" /></p>
 
-
-# Speech
-![Frequent words in the speech](demo.gif)
-
-# Emotion/gender examples:
-
-![](emos.png)
-
-
-![](images/gradcam_results.png)
 
