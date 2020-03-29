@@ -5,7 +5,7 @@
 
 ![alt tag](emos.png)
 
-Guided back-prop
+
 ![alt tag](images/gradcam_results.png)
 
 # Transcript
