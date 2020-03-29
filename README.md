@@ -36,14 +36,8 @@ Consider global warming in speech. The way to convey the exact same word can var
 # Capturing and quantifying emotions from using deep learning
 To capture and quantify speaker's emotions from video, I used Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras Convolutional Neural Networks (CNN) model and openCV by [Arriaga, Ploger, and Valdenegro (2017)](https://github.com/oarriaga/face_classification/blob/master/report.pdf). I modified some of the code becuase several functions and packages have been changed since 2017. However, the base model and package is from orriaga's repo [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py). 
 
-![Frequent words in the speech](demo.gif)
+<p align="center"><img src="demo.gif" /></p>
 
-# Emotion examples:
-
-![](emos.png)
-
-
-![](images/gradcam_results.png)
 
 
 # Text
@@ -74,7 +68,6 @@ Texts: Even some very significant challenges we should have dealt with but we di
 <p align="center"><img title="Title Tag Goes Here" src="Figure_1-1.png" /></p>
 
 
-
 On the other hand, positive message shows relatively less stronger emotions and has the amplitude is smaller than the negative message.
 
 Text: One of the most sacred fundamental ideals of this country the American dream the notion that if you work hard and you play by the rules you and your family can live a better life.
@@ -82,3 +75,14 @@ Text: One of the most sacred fundamental ideals of this country the American dre
 <p align="center"><img title="Title Tag Goes Here" src="Figure_1-2.png" /></p>
 
 
+# Video images
+I used \texttt{Emotion} Python package written by Octavio, Valdenegro-Toro, and Pl{\H o}ger (2017). The strength of their package is that it can analyze speaker's facial emotions in real time for every frames based on general convolutional neural network (CNN). The trained classifier for emotion used data set by Goodfellow (2013), and the authors reported that their classifier has an accuracy of 66\% in the FER-2013 emotion dataset comparing to human classifier. Among many videos, I chose one video to analyze its features in detail.
+
+Now to quantify and store the emotions of speaker from a video, I stored captured emotions of each frame of video. The below is the distribution of emotions from the sample video. As it shows there are several points of the speech where the speaker shows strong emotion such as anger. I will discuss and analyze more about these stronger emotions from speech to understand how speaker's emtions can be strategically used for audiences or messages of videos.
+
+<p align="center"><img src="emos.png" /></p>
+
+
+
+# Conclusion
+I will conduct the experiments to identify the effect of emotion in speech via textual and non-textual ways. For instance, 1) we can use similar text with different audio and visual setting to identify high and low emotional expression. 2) We can test how emotional and contextual differences affect receivers' perception and knowledge. 3) With better and more Congressional campaign speech videos, we could build better speaker's emotion classifier and identify different candidates' campaign styles and their effects.
