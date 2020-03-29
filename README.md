@@ -36,8 +36,10 @@ Consider global warming in speech. The way to convey the exact same word can var
 # Text
 The split audio file can be transcribed in Google Speech API. Text sources are useful data and there are various models to analyze text, but without a video and audio component of speech, we can only understand limited information from the communication. For example, the same word can be presented in different ways with different emotions that text data itself cannot capture that difference.
 
-![](cloud.png)
 
+<p align="center">
+  <cloud.png>
+</p>
 
 # Transcript
 00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea<br />
