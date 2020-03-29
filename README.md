@@ -19,37 +19,25 @@ Consider global warming in speech. The way to convey the exact same word can var
   * Download top 3 results of each winners (Total about 60GB). 
 
 
-\textcolor{ForestGreen!70}{\textbf{Video text}}
-\begin{itemize}
-\item Cut extracted audio into pieces
-\item Run Google Speech API for each audio blocks
-\item Transcribe the audio blocks and merge them
-\end{itemize}
+* Video text
+  * Cut extracted audio into pieces
+  * Run Google Speech API for each audio blocks
+  * Transcribe the audio blocks and merge them
 
-\textcolor{ForestGreen!70}{\textbf{Video audio}}
-\begin{itemize}
-\item Extract audio from video
-\item Analyze the audio: Amplitude, pitch, length etc.
-\end{itemize}
+* Video audio
+  * Extract audio from video
+  * Analyze the audio: Amplitude, pitch, length etc.
 
-\textcolor{ForestGreen!70}{\textbf{Video images}}
-\begin{itemize}
-\item Recognize the face of a politician from video
-\item Use pre-trained face classifier for detecting emotions (Goodfellow 2013) 
-\item Capture and analyze the facial emotions of the politician for each video frames
-\end{itemize}
+* Video images
+  * Recognize the face of a politician from video
+  * Use pre-trained face classifier for detecting emotions (Goodfellow 2013) 
+  * Capture and analyze the facial emotions of the politician for each video frames
 
+# Text
+The split audio file can be transcribed in Google Speech API. Text sources are useful data and there are various models to analyze text, but without a video and audio component of speech, we can only understand limited information from the communication. For example, the same word can be presented in different ways with different emotions that text data itself cannot capture that difference.
 
+![](cloud.png)
 
-# Speech
-![](demo.gif)
-
-# Emotion/gender examples:
-
-![](emos.png)
-
-
-![](images/gradcam_results.png)
 
 # Transcript
 00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea<br />
@@ -83,3 +71,16 @@ Consider global warming in speech. The way to convey the exact same word can var
 00:07:00 we have been perfect but we fundamentally change the trajectory of humankind and we're proud of it and when our government is failing we're failing if we can restore faith and trust in government<br />
 00:07:15 restore people's faith in themselves and then we can actually take advantage of the extraordinary blessings we have is a nation put ourselves on the right trajectory take care of those we left behind the last several decades and<br />
 00:07:30 pair this amazing country for a future the Ken and will be brighter God bless you thank you<br />
+
+
+
+# Speech
+![Frequent words in the speech](demo.gif)
+
+# Emotion/gender examples:
+
+![](emos.png)
+
+
+![](images/gradcam_results.png)
+
