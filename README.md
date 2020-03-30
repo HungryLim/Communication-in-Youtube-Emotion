@@ -4,6 +4,8 @@ People perceive information not only from text but also from audio and image in 
 * Texts are not enough to capture the non-textual effect of communication 
 * Difficulties in systematically measuring speaker's emotion from video data 
 
+# Project 
+
 # Introduction
 Consider global warming in speech. The way to convey the exact same word can vary in the context of the speech. However, we are unsure about how various textual and non-textual features of communication affect reception of the information and the perception of speaker. Therefore, I collect 2016 Congressional campaign speech video data from Youtube to use in an experiment in which we can test the effect of emotional expression on those two outcomes. In order to analyze comprehensive aspects of speech in video, we need to analyze text, audio and images from video.
 
@@ -89,3 +91,5 @@ Now to quantify and store the emotions of speaker from a video, I stored capture
 
 # Conclusion
 I will conduct the experiments to identify the effect of emotion in speech via textual and non-textual ways. For instance, 1) we can use similar text with different audio and visual setting to identify high and low emotional expression. 2) We can test how emotional and contextual differences affect receivers' perception and knowledge. 3) With better and more Congressional campaign speech videos, we could build better speaker's emotion classifier and identify different candidates' campaign styles and their effects.
+
+I thank [Chris Lucas](http://christopherlucas.org/) for helpful conversations and comments.
