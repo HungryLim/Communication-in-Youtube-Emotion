@@ -40,6 +40,15 @@ To capture and quantify speaker's emotions from video, I used Real-time face det
 
 <p align="center"><img src="demo.gif" /></p>
 
+ # Challenges in capturing "The Speaker"
+If a video is a speech of one speaker of my interest, then it will be relatively easy to capture the emotion of speaker to understand her strategical usage of emotions in speech. However, in reality, videos in Youtube does not show just one speaker of my interest. There can be multiple individuals who are not my interests including commentators, panels, reporters or any random individuals. Therefore, I need to find a way to capture the point where the person of my interest gives a speech. 
+
+To achieve this goal, 
+ 1) I cut frames of a video and capture the face of a speaker of each frame. 
+ 2) Using Microsoft Face API, I compared the face of each frame with the benchmark of speakers' face that I am interested in.
+ 3) I record probability of matching between the benchmark face and faces in a frame.
+ 4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not.
+ 5) With this method and frame cut by time mark of video, I can figure out whether the person of interest is speaking in given time frame of a video.
 
 
 # Text
