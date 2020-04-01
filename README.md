@@ -55,7 +55,7 @@ The python code that I used is "whose_face.py" in this repository.
 
 
 # Text
-The split audio file can be transcribed in Google Speech API. Text sources are useful data and there are various models to analyze text, but without a video and audio component of speech, we can only understand limited information from the communication. For example, the same word can be presented in different ways with different emotions that text data itself cannot capture that difference. In this post, I will use a case of video. The video is from the Youtube channel of Congressman John K. Delaney (https://www.youtube.com/watch?v=z-NvLskoi7I). Below is the word cloud of the sample video's texts.
+The split audio file can be transcribed in Google Speech API. Text sources are useful data and there are various models to analyze text, but without a video and audio component of speech, we can only understand limited information from the communication. For example, the same word can be presented in different ways with different emotions that text data itself cannot capture that difference. In this post, I will use a case of video. The video is from the Youtube channel of Congressman John K. Delaney (https://www.youtube.com/watch?v=z-NvLskoi7I). Below is the word cloud of the sample video's texts. The python code that I used is "transcribe.py" in this repository.
 
 <p align="center"><img title="Title Tag Goes Here" src="cloud.png" /></p>
 
