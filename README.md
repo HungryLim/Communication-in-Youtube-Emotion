@@ -47,9 +47,12 @@ To achieve this goal,
  1) I cut frames of a video and capture the face of a speaker of each frame. 
  2) Using Microsoft Face API, I compared the face of each frame with the benchmark of speakers' face that I am interested in.
  3) I record probability of matching between the benchmark face and faces in a frame.
- 4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not.
+ 4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not. In this case study, I used 50% of confidence rate as the threshold of matching faces. The below plots show the matched frames and varying threshold.
  
-<p align="center"><img title="Title Tag Goes Here" src="cloud.png" /></p>
+<p align="center">
+<img src="face_match.png" />
+<img src="face_match2.png" />
+</p>
  
  5) With this method and frame cut by time mark of video, I can figure out whether the person of interest is speaking in given time frame of a video.
  
