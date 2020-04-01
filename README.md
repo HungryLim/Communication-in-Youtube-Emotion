@@ -64,7 +64,7 @@ The split audio file can be transcribed in Google Speech API. Text sources are u
 <p align="center"><img title="Title Tag Goes Here" src="cloud.png" /></p>
 
 ## Transcript
-I used Google Speech API to transcribe text from the Youtube video. The below is the part of transcript of speech in the Youtube.
+I used [Google Cloud Speech API](https://cloud.google.com/speech-to-text/?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-e-dr-1008076&utm_content=text-ad-none-any-DEV_c-CRE_291204615750-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20%7C%20US%20%7C%20en%20%7C%20EXA%20~%20ML%2FAI%20~%20Speech%20API%20~%20Google%20Speech%20Api-KWID_43700036257547045-kwd-475108781969&utm_term=KW_google%20speech%20api-ST_Google%20Speech%20Api&gclid=EAIaIQobChMIiPG5ibXI6AIVY__jBx1tKg7WEAAYASAAEgKf8PD_BwE) to transcribe text from the Youtube video. The below is the part of transcript of speech in the Youtube.
 
 00:00:00 needs to move their jobs overseas by going to a territorial tax system we want to present and we'll change the tax code to Great incentives for people to invest in communities that have been left behind that is a bipartisan idea<br />
 00:00:15 we want a president we want a president who will change how the government contracts so that it only does business in places that have been left behind economically that is a bipartisan idea instead of ramming down the throat of the American people<br />
