@@ -36,7 +36,7 @@ Consider global warming in speech. The way to convey the exact same word can var
 
 
 # Capturing and quantifying emotions from using deep learning
-To capture and quantify speaker's emotions from video, I used Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras Convolutional Neural Networks (CNN) model and openCV by [Arriaga, Ploger, and Valdenegro (2017)](https://github.com/oarriaga/face_classification/blob/master/report.pdf). I modified some of the code becuase several functions and packages have been changed since 2017. However, the base model and package are from orriaga's repo [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py). 
+To capture and quantify speaker's emotions from video, I used Real-time face detection and emotion/gender classification using fer2013/IMDB datasets with a keras Convolutional Neural Networks (CNN) model and openCV by [Arriaga, Ploger, and Valdenegro (2017)](https://github.com/oarriaga/face_classification/blob/master/report.pdf). I modified some of the code becuase several functions and packages have been changed since 2017. However, the base model and package are from orriaga's repo [here](https://github.com/oarriaga/face_classification/blob/master/src/train_emotion_classifier.py). The python code that I used is "capture_emotions.py" in this repository.
 
 <p align="center"><img src="demo.gif" /></p>
 
@@ -49,6 +49,9 @@ To achieve this goal,
  3) I record probability of matching between the benchmark face and faces in a frame.
  4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not.
  5) With this method and frame cut by time mark of video, I can figure out whether the person of interest is speaking in given time frame of a video.
+ 
+The python code that I used is "whose_face.py" in this repository.
+
 
 
 # Text
