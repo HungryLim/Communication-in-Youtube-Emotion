@@ -50,8 +50,8 @@ To achieve this goal,
  4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not. In this case study, I used 50% of confidence rate as the threshold of matching faces. The below plots show the matched frames and varying threshold.
  
 <p align="center">
-<img src="face_match.png" />
-<img src="face_match2.png" />
+<img src="face_match.png" width="400" //>
+<img src="face_match2.png" width="400" //>
 </p>
  
  5) With this method and frame cut by time mark of video, I can figure out whether the person of interest is speaking in given time frame of a video.
