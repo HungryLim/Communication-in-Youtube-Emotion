@@ -48,6 +48,9 @@ To achieve this goal,
  2) Using Microsoft Face API, I compared the face of each frame with the benchmark of speakers' face that I am interested in.
  3) I record probability of matching between the benchmark face and faces in a frame.
  4) With a probability of a threshold (I can select the threshold), I can decide whether the person of interest (speaker) is in the frame or not.
+ 
+<p align="center"><img title="Title Tag Goes Here" src="cloud.png" /></p>
+ 
  5) With this method and frame cut by time mark of video, I can figure out whether the person of interest is speaking in given time frame of a video.
  
 The python code that I used is "whose_face.py" in this repository.
